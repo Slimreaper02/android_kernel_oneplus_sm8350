@@ -154,7 +154,6 @@ EXPORT_SYMBOL(vfs_statx_fd);
 extern int ksu_handle_stat(int *dfd, const char __user **filename_user, int *flags);
 #endif
 
-
 /**
  * vfs_statx - Get basic and extra attributes by filename
  * @dfd: A file descriptor representing the base dir for a relative filename
